@@ -15,25 +15,14 @@
             </div>
             <nav>
                 <ul>
-                    <li class="actual"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="aboutus.html">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li class="actual"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
-
-    <section id="experts">
-        <div class="container">
-            <h1>Experts on Web Technology</h1>
-            <p>Sapien pellentesque habitant morbi tristique. 
-                Neque sodales ut etiam sit. Aliquet porttitor 
-                lacus luctus accumsan tortor posuere ac ut. 
-                Interdum posuere lorem ipsum dolor sit amet 
-                consectetur adipiscing elit.</p>
-        </div>
-    </section>
 
     <section id="mailist">
         <div class="container">
@@ -45,25 +34,24 @@
         </div>
     </section>
 
-    <section id="boxes">
+    <div class="main">
         <div class="container">
-            <div class="box">
-                <img src="IMG/logo_html.png" alt="Logo HTML 5">
-                <h3>HTML5</h3>
-                <p>Nisl pretium fusce id velit ut tortor pretium viverra suspendisse.</p>
-            </div>
-            <div class="box">
-                <img src="IMG/logo_css.png" alt="Logo CSS3">
-                <h3>CSS3</h3>
-                <p>Nisl pretium fusce id velit ut tortor pretium viverra suspendisse.</p>
-            </div>
-            <div class="box">
-                <img src="IMG/logo_brush.png" alt="Logo Design">
-                <h3>Design</h3>
-                <p>Nisl pretium fusce id velit ut tortor pretium viverra suspendisse.</p>
-            </div>
+            <article id="main-col"><br>
+                <h1>Contact</h1><br>
+                <form action="">
+                    <label>Name: </label>
+                    <input type="text" name="name" placeholder="Enter your Name">
+                    <br><label>Email: </label>
+                    <input type="email" name="email" placeholder="Enter your Email">
+                    <br><label>Telephone: </label>
+                    <input type="number" name="telephone" placeholder="Enter your Phone Number">
+                    <br><label>Message: </label>
+                    <textarea name="message"  cols="30" rows="10"></textarea><br>
+                    <input type="submit" value="Send">
+                </form>
+            </article>
         </div>
-    </section>
+    </div>
 
     <footer>
         <p>Web Development, Copyright &copy; 2019</p>
