@@ -1,0 +1,127 @@
+body{
+    font: 15px Arial, Helvetica;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.btn1{
+    height: 38px;
+    background: #e8491d;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #fff; 
+}
+
+header {
+    background-color: #24282b;
+    color: #fff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: 5px solid #1293d4;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+#brand {
+    float: left;
+}
+
+h1 {
+    margin: 0;
+}
+
+nav {
+    float: right;
+    margin-top: 10px;
+}
+
+.design, .actual a {
+    color: #1293d4;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #ccc;
+    font-weight: bold;
+}
+
+#experts {
+    min-height: 400px;
+    background: url('../IMG/cabecera.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: #fff;
+}
+
+#experts h1 {
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#experts p {
+    font-size: 20px;
+}
+
+#mailist  {
+    padding: 15px;
+    color: #fff;
+    background: #24282b;
+}
+
+#mailist form {
+    float: right;
+    margin-top: 15px;
+}
+
+#mailist input[type="email"] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+
+#boxes {
+    margin-top: 20px;
+}
+
+.box {
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+.box img {
+    width: 90px;
+}
+
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #1293d4;
+    text-align: center;
+}
